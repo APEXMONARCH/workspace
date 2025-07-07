@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BELA HYPERLIQID</title>
+  <link rel="stylesheet" href="./wkpracticestyle.css">
+  <link rel="stylesheet" href="./fontawesome-free-6.1.2-web/css/all.min.css">
+  <link rel="stylesheet" href="./bootstrap-5.3.0-examples/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav>
+  <div class="logo">
+    <a href="#"><img src="./Image/bellabg.png" alt="Bella Logo"></a>
+  </div>
+
+  <ul id="nav-list">
+    <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+    <li><a href="#"><i class="fa-solid fa-circle-info"></i> About</a></li>
+    <li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</a></li>
+    <li><a href="#"><i class="fa-brands fa-discord"></i> Discord</a></li>
+    <li><a href="#"><i class="fa-solid fa-link"></i> Drip</a></li>
+    <li><a href="#quest"><i class="fa-solid fa-star"></i> Quest</a></li>
+  </ul>
+
+  <div class="menu" id="menu-icon">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+</nav>
+
+</body>
+<script>
+  const menuIcon = document.getElementById('menu-icon');
+  const navList = document.getElementById('nav-list');
+
+  menuIcon.addEventListener('click', () => {
+    navList.classList.toggle('active');
+  });
+</script>
+
+</html>
+
